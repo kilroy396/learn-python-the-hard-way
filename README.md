@@ -1,5 +1,9 @@
-# learn-python-the-hard-way
+# README #
 
-Based on https://www.learnpythonthehardway.org/
+This are the files associated with the exercises for [Learning Python 3 the hard way](https://localhost)
 
-This repository will contain the excercises contained in the Python 3 version of the book published at the above web site
+### How do I get set up? ###
+
+Keeping it simple:  'docker container run -it --rm -v "$(pwd)":/tmp --name python python:3 /bin/bash'
+
+This maps the current directory into the container.
