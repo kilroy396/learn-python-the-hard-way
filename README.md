@@ -1,6 +1,6 @@
 # README #
 
-This are the files associated with the exercises for [Learning Python 3 the hard way](https://localhost)
+This are the files associated with the exercises for [Learning Python 3 the hard way](https://learnpythonthehardway.org/python3/)
 
 ### How do I get set up? ###
 
