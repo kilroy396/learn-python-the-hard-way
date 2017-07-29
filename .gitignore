@@ -1,3 +1,4 @@
 .DS_Store
 learn-python3-the-hard-way*.pdf
 .vscode
+.ipynb_checkpoints
