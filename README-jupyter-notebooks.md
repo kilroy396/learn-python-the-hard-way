@@ -8,7 +8,7 @@ Alternatively use some of the alternative jupter/*-notebook containers on [http:
 
 To start the containerised notebook:
 ```
-$ docker container run -d -p 8888:8888 -v “$(pwd)“:/home/jovyan/mapped-notebooks --name jupyter-notebook jupyter/all-spark-notebook
+$ docker container run -d  --restart always -p 8888:8888 -v “$(pwd)“:/home/jovyan/mapped-notebooks --name jupyter-notebook jupyter/all-spark-notebook
 ```
 
 You will then need to browse to [http://localhost:8888](http://128.0.0.1:8888)
